@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Step1 = () => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const fileFormats = ["pdf", "csv", "png", "ppt", "xls", "audio", "video"];
+  const fileFormats = ["pdf", "csv", "png", " ", "xls", "audio", "video"];
 
   return (
     <div className="flex flex-col gap-[20px]">
